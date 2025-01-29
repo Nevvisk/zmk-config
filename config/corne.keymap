@@ -46,10 +46,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-
-    &kp TAB    &kp DELETE   &kp 1    &kp 2    &kp 3    &ls &kp QT   &kp MINUS    &ls &kp 9    &ls &kp 0    &kp MINUS    &kp EQUAL    &kp BSPC
-    &kp LCTRL  &ls &kp FSLH &kp 4    &kp 5    &kp 6    &ls &kp SEMI &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &kp QT       &kp GRAVE
-    &kp LSHFT  &ls &kp 4    &kp 7    &kp 8    &kp 9    &kp 0        &ls &kp LBKT &ls &kp RBKT &kp LBKT    &kp RBKT     &kp BSLS     &ls &kp GRAVE
+    &kp TAB    &kp DELETE   &kp 1    &kp 2    &kp 3    &sk LS QT   &kp MINUS    &sk LS 9    &sk LS 0    &kp MINUS    &kp EQUAL    &kp BSPC
+    &kp LCTRL  &sk LS FSLH &kp 4    &kp 5    &kp 6    &sk LS SEMI &kp LEFT     &kp DOWN     &kp UP       &kp RIGHT    &kp QT       &kp GRAVE
+    &kp LSHFT  &sk LS 4    &kp 7    &kp 8    &kp 9    &kp 0        &sk LS LBKT &sk LS RBKT &kp LBKT    &kp RBKT     &kp BSLS     &sk LS GRAVE
                    &kp LGUI  &kp LSHFT  &kp SPACE  &kp ENTER  &kp TRNS  &kp RGUI
                         >;
                 };
