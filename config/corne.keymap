@@ -22,7 +22,6 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_RIGHT_HAND>;
             hold-trigger-on-release;
-            ignore-mod-tap-interrupt;
         };
 
         hmr: home_mod_right {
@@ -35,7 +34,6 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_LEFT_HAND>;
             hold-trigger-on-release;
-            ignore-mod-tap-interrupt;
         };
     };
 };
