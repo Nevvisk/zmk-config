@@ -17,9 +17,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_MOD_LEFT";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_RIGHT_HAND>;
             hold-trigger-on-release;
@@ -29,9 +29,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_MOD_RIGHT";
             #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_LEFT_HAND>;
             hold-trigger-on-release;
