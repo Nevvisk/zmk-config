@@ -8,37 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define KEYS_LEFT_HAND 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
-#define KEYS_RIGHT_HAND 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
-/ {
-    behaviors {
-        hml: home_mod_left {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOME_MOD_LEFT";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_RIGHT_HAND>;
-            hold-trigger-on-release;
-        };
-
-        hmr: home_mod_right {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOME_MOD_RIGHT";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_LEFT_HAND>;
-            hold-trigger-on-release;
-        };
-    };
-};
-
-/ {
+ {
         keymap {
                 compatible = "zmk,keymap";
 
@@ -80,7 +50,7 @@
     &kp TAB    &kp 1    &kp  2    &kp  3    &kp  4    &kp  5    &kp  6    &kp  7    &kp  8    &kp  9    &kp  0    &kp DEL
     &kp LCTRL  &kp LS(FSLH)   &kp  LS(4)   &kp   LS(5)   &kp   LS(APOS)    &kp   LS(SEMI)    &kp  LEFT    &kp   DOWN    &kp  UP     &kp   RIGHT    &kp   BSLH    &kp   PSCRN
     &kp LSHFT  &kp MINUS   &kp  LBKT    &kp  LBRC    &kp LPAR   &kp LT        &kp  GT   &kp RPAR  &kp  RBRC    &kp  RBKT   &kp EQUAL     &kp GRAVE
-                   &kp LGUI  &kp LSHIFT  &kp SPACE  &kp ENTER  &mo 2  &mo 1
+                   &kp LGUI  &kp LSHIFT  &kp SPACE  &kp ENTER  &kp TRNS  &mo 1
                         >;
                 };
         };
