@@ -47,9 +47,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-    &kp TAB    &kp 1    &kp  2    &kp  3    &kp  4    &kp  5    &kp  6    &kp  7    &kp  8    &kp  9    &kp  0    &kp DEL
-    &kp LCTRL  &kp LS(FSLH)   &kp  LS(4)   &kp   LS(5)   &kp   LS(APOS)    &kp   LS(SEMI)    &kp  LEFT    &kp   DOWN    &kp  UP     &kp   RIGHT    &kp   BSLH    &kp   PSCRN
-    &kp LSHFT  &kp MINUS   &kp  LBKT    &kp  LBRC    &kp LPAR   &kp LT        &kp  GT   &kp RPAR  &kp  RBRC    &kp  RBKT   &kp EQUAL     &kp GRAVE
+    &kp TAB    &kp 1  &kp 2 &kp 3 &kp 4 &kp 5 &kp 6 &kp 7 &kp 8 &kp 9 &kp 0 &kp DEL
+    &kp LCTRL  &kp LS(FSLH) &kp LS(4) &kp LS(5) &kp LS(APOS) &kp LS(SEMI)  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp PSCRN
+    &kp LSHFT  &kp MINUS   &kp  LBKT    &kp LBRC    &kp LPAR  &kp LT  &kp GT &kp RPAR &kp RBRC &kp RBKT &kp EQUAL &kp GRAVE
                    &kp LGUI  &kp LSHFT  &kp SPACE  &kp ENTER  &mo 2 &mo 1
                         >;
                 };
