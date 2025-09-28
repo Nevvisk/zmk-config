@@ -37,7 +37,7 @@
                         bindings = <
     &kp TAB    &kp N1  &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp DEL
     &kp LCTRL  &kp QMARK &kp BSLH &kp LS(N5) &kp LS(APOS) &kp LS(SEMI)  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp PSCRN
-    &kp LSHFT  &kp MINUS   &kp  LBKT    &kp LBRC    &kp LPAR  &kp LT  &kp GT &kp RPAR &kp RBRC &kp RBKT &kp EQUAL &kp GRAVE
+    &kp LSHFT  &kp MINUS   &kp  LBKT    &kp LPAR    &kp LBRC  &kp LT  &kp GT &kp RBRC &kp LPAR &kp RBKT &kp EQUAL &kp GRAVE
                                     &kp LGUI  &kp LSHFT  &kp SPACE  &kp ENTER  &mo 2 &mo 1
                         >;
                 };
