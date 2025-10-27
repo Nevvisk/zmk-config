@@ -13,7 +13,7 @@
         behaviors {
           uc: unicode {
             compatible = "zmk,behaviou-unicode";
-            #biniding-cells = <1>;
+            #binding-cells = <1>;
           };
         };
 
