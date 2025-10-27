@@ -12,7 +12,7 @@
  
         behaviors {
           uc: unicode {
-            compatible = "zmk,behaviour-unicode";
+            compatible = "zmk,behavior-unicode";
             #binding-cells = <1>;
           };
         };
