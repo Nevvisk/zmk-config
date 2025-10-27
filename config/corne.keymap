@@ -8,11 +8,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-/  {
+/ {
  
         behaviors {
           uc: unicode {
-            compatible = "zmk,behaviou-unicode";
+            compatible = "zmk,behaviour-unicode";
             #binding-cells = <1>;
           };
         };
