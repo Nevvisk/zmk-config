@@ -11,8 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk-locales
       remote: zmk-locales
-      revision: main # Or a specific commit hash/tag for stability
-      # The import property ensures any dependencies within the locale repo are also fetched
-      import: app/west.yml
+      revision: main 
   self:
     path: config
