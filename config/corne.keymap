@@ -36,7 +36,7 @@
  &kp LCTRL  &kp QMARK &kp BSLH &kp LS(N5) &kp LS(APOS) &kp LS(SEMI)  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp PSCRN
  &kp LSHFT  &kp MINUS &kp LBKT &kp LPAR &kp LBRC &kp LT  &kp GT &kp RBRC &kp RPAR &kp RBKT &kp EQUAL &kp GRAVE
 /* Thumbs: L1, L2, L3, R1, R2, R3 */
- &kp LGUI  &mo 1  &kp SPACE &kp ENTER &mo 3 &kp LSHIFT
+ &mo 1 &kp LSHIFT  &kp SPACE &kp ENTER &mo 3 &kp LSHIFT
             >;
         };
     };
