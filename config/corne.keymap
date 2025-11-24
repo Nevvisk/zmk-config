@@ -21,7 +21,7 @@
         lower_layer {
             bindings = <
 /* LEFT side keys */
- &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp GLOBE &kp DE_U_UMLAUT  &kp DE_SHARP_S &kp BSPC
+ &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp DE_U_UMLAUT &kp DE_SHARP_S &none  &kp BSPC
  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp C_NEXT &trans &kp DE_A_UMLAUT &kp DE_O_UMLAUT &trans &trans
  &kp LSHFT  &bt BT_CLR_ALL  &trans  &kp C_PREV    &kp C_NEXT  &trans  &trans   &trans   &trans &trans    &trans &trans
 /* Thumbs: L1, L2, L3, R1, R2, R3 */
