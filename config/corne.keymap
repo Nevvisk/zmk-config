@@ -18,17 +18,6 @@
             >;
         };
 
-       raise_layer {
-            bindings = <
-              /* LEFT side keys */
- &kp INSERT    &kp N1  &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp DEL
- &kp LALT  &kp QMARK &kp BSLH &kp LS(N5) &kp LS(APOS) &kp LS(SEMI)  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp PSCRN
- &kp LCTRL  &kp MINUS &kp LBKT &kp LPAR &kp LBRC &kp LT  &kp GT &kp RBRC &kp RPAR &kp RBKT &kp EQUAL &kp GRAVE
-/* Thumbs: L1, L2, L3, R1, R2, R3 */
- &mo 1 &kp LSHIFT  &kp SPACE &kp ENTER &mo 3 &kp LSHIFT
-            >;
-        };
-
         lower_layer {
             bindings = <
 /* LEFT side keys */
@@ -37,6 +26,17 @@
  &kp LSHFT  &bt BT_CLR_ALL  &trans  &kp C_PREV    &kp C_NEXT  &trans  &trans   &trans   &trans &trans    &trans &trans
 /* Thumbs: L1, L2, L3, R1, R2, R3 */
  &kp LGUI &trans &kp SPACE &kp RET &trans &kp RALT
+            >;
+        };
+
+       raise_layer {
+            bindings = <
+              /* LEFT side keys */
+ &kp INSERT    &kp N1  &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp DEL
+ &kp LALT  &kp QMARK &kp BSLH &kp LS(N5) &kp LS(APOS) &kp LS(SEMI)  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp PSCRN
+ &kp LCTRL  &kp MINUS &kp LBKT &kp LPAR &kp LBRC &kp LT  &kp GT &kp RBRC &kp RPAR &kp RBKT &kp EQUAL &kp GRAVE
+/* Thumbs: L1, L2, L3, R1, R2, R3 */
+ &mo 1 &kp LSHIFT  &kp SPACE &kp ENTER &mo 3 &kp LSHIFT
             >;
         };
 
