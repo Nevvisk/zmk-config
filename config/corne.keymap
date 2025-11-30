@@ -11,10 +11,21 @@
             bindings = <
 /* LEFT side keys: Row1-6, Row2-6, Row3-6, Thumb1-3 */
  &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
- &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
- &kp LALT  &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp CAPSLOCK
+ &kp LALT  &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+ &kp LCTRL  &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp CAPSLOCK
 /* Thumbs: L1, L2, L3, R1, R2, R3 */
  &kp LGUI &kp LSHFT &kp RET &kp SPACE &mo 2 &kp ESC
+            >;
+        };
+
+       raise_layer {
+            bindings = <
+              /* LEFT side keys */
+ &kp INSERT    &kp N1  &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp DEL
+ &kp LALT  &kp QMARK &kp BSLH &kp LS(N5) &kp LS(APOS) &kp LS(SEMI)  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp PSCRN
+ &kp LCTRL  &kp MINUS &kp LBKT &kp LPAR &kp LBRC &kp LT  &kp GT &kp RBRC &kp RPAR &kp RBKT &kp EQUAL &kp GRAVE
+/* Thumbs: L1, L2, L3, R1, R2, R3 */
+ &mo 1 &kp LSHIFT  &kp SPACE &kp ENTER &mo 3 &kp LSHIFT
             >;
         };
 
@@ -29,15 +40,6 @@
             >;
         };
 
-        raise_layer {
-            bindings = <
-/* LEFT side keys */
- &kp TAB    &kp N1  &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp DEL
- &kp LCTRL  &kp QMARK &kp BSLH &kp LS(N5) &kp LS(APOS) &kp LS(SEMI)  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSLH &kp PSCRN
- &kp LSHFT  &kp MINUS &kp LBKT &kp LPAR &kp LBRC &kp LT  &kp GT &kp RBRC &kp RPAR &kp RBKT &kp EQUAL &kp GRAVE
-/* Thumbs: L1, L2, L3, R1, R2, R3 */
- &mo 1 &kp LSHIFT  &kp SPACE &kp ENTER &mo 3 &kp LSHIFT
-            >;
-        };
+
     };
 };
